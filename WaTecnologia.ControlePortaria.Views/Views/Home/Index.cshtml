@@ -1,0 +1,88 @@
+﻿@using WaTecnologia.ControlePortaria.Domain;
+@model List<EncomendaModel>
+
+@{
+    ViewBag.Title = "Encomendas Recebidas";
+}
+<h2>@ViewBag.Title</h2>
+@using (Html.BeginForm("FiltraPorParametros", "Home"))
+{
+    @Html.AntiForgeryToken()
+
+<div class="form-horizontal">
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <div class="form-group">
+        <label class="control-label col-md-2">Nome do Remetente</label>
+
+        <div class="col-md-10">
+            <input type="text" class="form-control" name="NomeRemetente" />
+
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-md-2">Numero do Apartamento </label>
+        <div class="col-md-10">
+            <input type="number" class="form-control" name="NumApartamento" />
+
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-md-2">Torre </label>
+        <div class="col-md-10">
+            <input type="text" class="form-control" name="Torre" />
+
+        </div>
+    </div>
+
+   
+
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Pesquisar" class="btn btn-default" />
+        </div>
+    </div>
+</div>
+}
+
+
+<div class="container">
+    <div class="row">
+        <table class="table table-dark table-striped">
+            <thead>
+                <tr>
+                    <th>Nome do Remetente</th>
+                    <th>Numero do Apartamento</th>
+                    <th>Torre</th>
+                    <th>Data de Recebimento</th>
+                    <th>Documento da retirada</th>
+                    <th>Retirado por</th>
+                    <th>Data de Retirada</th>
+                    <th>Status da Entrega</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    foreach (var encomenda in Model)
+                    {
+                        var statusEntrega = encomenda.StatusEntrega == true ? "Entregue" : "Não entregue";
+                                <tr>
+                                    <td>@encomenda.NomeRemetente</td>
+                                    <td>@encomenda.NumApartamento</td>
+                                    <td>@encomenda.Torre</td>
+                                    <td>@encomenda.DataRecebimento</td>
+                                    <td>@encomenda.DocRetirada</td>
+                                    <td>@encomenda.NomeRetirada</td>
+                                    <td>@encomenda.DataEntrega</td>
+                                    <td>@statusEntrega</td>
+                                    <td><button class="btn btn-default">@Html.ActionLink("Dar Baixa", "Update", "Home", new { Id = encomenda.Id }, null)</button></td>
+                                </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

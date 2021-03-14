@@ -1,0 +1,16 @@
+D:\Desenvolvimento\WaTecnologia.ControlePortaria\WaTecnologia.ControlePortaria.Repository\bin\Debug\netstandard2.0\WaTecnologia.ControlePortaria.Repository.deps.json
+D:\Desenvolvimento\WaTecnologia.ControlePortaria\WaTecnologia.ControlePortaria.Repository\bin\Debug\netstandard2.0\WaTecnologia.ControlePortaria.Repository.dll
+D:\Desenvolvimento\WaTecnologia.ControlePortaria\WaTecnologia.ControlePortaria.Repository\bin\Debug\netstandard2.0\WaTecnologia.ControlePortaria.Repository.pdb
+D:\Desenvolvimento\WaTecnologia.ControlePortaria\WaTecnologia.ControlePortaria.Repository\bin\Debug\netstandard2.0\System.Configuration.dll
+D:\Desenvolvimento\WaTecnologia.ControlePortaria\WaTecnologia.ControlePortaria.Repository\bin\Debug\netstandard2.0\WaTecnologia.ControlePortaria.Domain.dll
+D:\Desenvolvimento\WaTecnologia.ControlePortaria\WaTecnologia.ControlePortaria.Repository\bin\Debug\netstandard2.0\System.Security.dll
+D:\Desenvolvimento\WaTecnologia.ControlePortaria\WaTecnologia.ControlePortaria.Repository\bin\Debug\netstandard2.0\WaTecnologia.ControlePortaria.Domain.pdb
+D:\Desenvolvimento\WaTecnologia.ControlePortaria\WaTecnologia.ControlePortaria.Repository\bin\Debug\netstandard2.0\System.Configuration.xml
+D:\Desenvolvimento\WaTecnologia.ControlePortaria\WaTecnologia.ControlePortaria.Repository\bin\Debug\netstandard2.0\System.Security.xml
+D:\Desenvolvimento\WaTecnologia.ControlePortaria\WaTecnologia.ControlePortaria.Repository\obj\Debug\netstandard2.0\WaTecnologia.ControlePortaria.Repository.csprojAssemblyReference.cache
+D:\Desenvolvimento\WaTecnologia.ControlePortaria\WaTecnologia.ControlePortaria.Repository\obj\Debug\netstandard2.0\WaTecnologia.ControlePortaria.Repository.AssemblyInfoInputs.cache
+D:\Desenvolvimento\WaTecnologia.ControlePortaria\WaTecnologia.ControlePortaria.Repository\obj\Debug\netstandard2.0\WaTecnologia.ControlePortaria.Repository.AssemblyInfo.cs
+D:\Desenvolvimento\WaTecnologia.ControlePortaria\WaTecnologia.ControlePortaria.Repository\obj\Debug\netstandard2.0\WaTecnologia.ControlePortaria.Repository.csproj.CoreCompileInputs.cache
+D:\Desenvolvimento\WaTecnologia.ControlePortaria\WaTecnologia.ControlePortaria.Repository\obj\Debug\netstandard2.0\WaTecnologia.ControlePortaria.Repository.csproj.CopyComplete
+D:\Desenvolvimento\WaTecnologia.ControlePortaria\WaTecnologia.ControlePortaria.Repository\obj\Debug\netstandard2.0\WaTecnologia.ControlePortaria.Repository.dll
+D:\Desenvolvimento\WaTecnologia.ControlePortaria\WaTecnologia.ControlePortaria.Repository\obj\Debug\netstandard2.0\WaTecnologia.ControlePortaria.Repository.pdb

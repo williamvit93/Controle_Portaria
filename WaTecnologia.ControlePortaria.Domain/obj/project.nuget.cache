@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "DUFxaSTtu499U8LJWu00RT7TNK0jOLIkOPvqLsIrp+cnNLzqlYYYB+VmqLgJVtxE2yYldStVKyYGsfCaTW4h8Q==",
+  "success": true,
+  "projectFilePath": "D:\\Desenvolvimento\\WaTecnologia.ControlePortaria\\WaTecnologia.ControlePortaria.Domain\\WaTecnologia.ControlePortaria.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\willi\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\willi\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

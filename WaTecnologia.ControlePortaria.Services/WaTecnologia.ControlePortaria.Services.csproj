@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WaTecnologia.ControlePortaria.Domain\WaTecnologia.ControlePortaria.Domain.csproj" />
+    <ProjectReference Include="..\WaTecnologia.ControlePortaria.Repository\WaTecnologia.ControlePortaria.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
