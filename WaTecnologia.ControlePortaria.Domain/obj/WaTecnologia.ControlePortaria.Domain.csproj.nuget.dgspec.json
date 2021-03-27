@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Desenvolvimento\\WaTecnologia.ControlePortaria\\WaTecnologia.ControlePortaria.Domain\\WaTecnologia.ControlePortaria.Domain.csproj": {}
+    "D:\\Desenvolvimento\\Controle_Portaria\\WaTecnologia.ControlePortaria.Domain\\WaTecnologia.ControlePortaria.Domain.csproj": {}
   },
   "projects": {
-    "D:\\Desenvolvimento\\WaTecnologia.ControlePortaria\\WaTecnologia.ControlePortaria.Domain\\WaTecnologia.ControlePortaria.Domain.csproj": {
+    "D:\\Desenvolvimento\\Controle_Portaria\\WaTecnologia.ControlePortaria.Domain\\WaTecnologia.ControlePortaria.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desenvolvimento\\WaTecnologia.ControlePortaria\\WaTecnologia.ControlePortaria.Domain\\WaTecnologia.ControlePortaria.Domain.csproj",
+        "projectUniqueName": "D:\\Desenvolvimento\\Controle_Portaria\\WaTecnologia.ControlePortaria.Domain\\WaTecnologia.ControlePortaria.Domain.csproj",
         "projectName": "WaTecnologia.ControlePortaria.Domain",
-        "projectPath": "D:\\Desenvolvimento\\WaTecnologia.ControlePortaria\\WaTecnologia.ControlePortaria.Domain\\WaTecnologia.ControlePortaria.Domain.csproj",
+        "projectPath": "D:\\Desenvolvimento\\Controle_Portaria\\WaTecnologia.ControlePortaria.Domain\\WaTecnologia.ControlePortaria.Domain.csproj",
         "packagesPath": "C:\\Users\\willi\\.nuget\\packages\\",
-        "outputPath": "D:\\Desenvolvimento\\WaTecnologia.ControlePortaria\\WaTecnologia.ControlePortaria.Domain\\obj\\",
+        "outputPath": "D:\\Desenvolvimento\\Controle_Portaria\\WaTecnologia.ControlePortaria.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

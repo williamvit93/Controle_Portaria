@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tMScKNUrDbVHPcYbtHG4WQ9SjDJ9KMQbrH8c38fWIOranQ1EdEQU6nKJbwh1GKv2StcZHzDOjysyV1/1c9YTog==",
+  "dgSpecHash": "zmDX5XOjqihGjtuA3iyM4CLFtPOxDCYyEeRraDigUqjt7yURK8M1GLE0iM3EUhiXifamYo2WHeX1FaZxhHRN2w==",
   "success": true,
-  "projectFilePath": "D:\\Desenvolvimento\\WaTecnologia.ControlePortaria\\WaTecnologia.ControlePortaria.Repository\\WaTecnologia.ControlePortaria.Repository.csproj",
+  "projectFilePath": "D:\\Desenvolvimento\\Controle_Portaria\\WaTecnologia.ControlePortaria.Repository\\WaTecnologia.ControlePortaria.Repository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\willi\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\willi\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

@@ -2,7 +2,7 @@
 
 namespace WaTecnologia.ControlePortaria.Domain
 {
-    public class EncomendaModel
+    public class Encomenda
     {
         public int Id { get; set; }
         public string NomeRemetente { get; set; }

@@ -1,0 +1,16 @@
+D:\Desenvolvimento\Controle_Portaria\WaTecnologia.ControlePortaria.Repository.EntityFrameWork\bin\Debug\WaTecnologia.ControlePortaria.Repository.EntityFrameWork.dll.config
+D:\Desenvolvimento\Controle_Portaria\WaTecnologia.ControlePortaria.Repository.EntityFrameWork\bin\Debug\WaTecnologia.ControlePortaria.Repository.EntityFrameWork.dll
+D:\Desenvolvimento\Controle_Portaria\WaTecnologia.ControlePortaria.Repository.EntityFrameWork\bin\Debug\WaTecnologia.ControlePortaria.Repository.EntityFrameWork.pdb
+D:\Desenvolvimento\Controle_Portaria\WaTecnologia.ControlePortaria.Repository.EntityFrameWork\bin\Debug\EntityFramework.dll
+D:\Desenvolvimento\Controle_Portaria\WaTecnologia.ControlePortaria.Repository.EntityFrameWork\bin\Debug\EntityFramework.SqlServer.dll
+D:\Desenvolvimento\Controle_Portaria\WaTecnologia.ControlePortaria.Repository.EntityFrameWork\bin\Debug\WaTecnologia.ControlePortaria.Domain.dll
+D:\Desenvolvimento\Controle_Portaria\WaTecnologia.ControlePortaria.Repository.EntityFrameWork\bin\Debug\WaTecnologia.ControlePortaria.Domain.pdb
+D:\Desenvolvimento\Controle_Portaria\WaTecnologia.ControlePortaria.Repository.EntityFrameWork\bin\Debug\EntityFramework.xml
+D:\Desenvolvimento\Controle_Portaria\WaTecnologia.ControlePortaria.Repository.EntityFrameWork\bin\Debug\EntityFramework.SqlServer.xml
+D:\Desenvolvimento\Controle_Portaria\WaTecnologia.ControlePortaria.Repository.EntityFrameWork\obj\Debug\WaTecnologia.ControlePortaria.Repository.EntityFrameWork.csprojAssemblyReference.cache
+D:\Desenvolvimento\Controle_Portaria\WaTecnologia.ControlePortaria.Repository.EntityFrameWork\obj\Debug\WaTecnologia.ControlePortaria.Repository.EntityFrameWork.csproj.CoreCompileInputs.cache
+D:\Desenvolvimento\Controle_Portaria\WaTecnologia.ControlePortaria.Repository.EntityFrameWork\obj\Debug\WaTecnologia.ControlePortaria.Repository.EntityFrameWork.csproj.CopyComplete
+D:\Desenvolvimento\Controle_Portaria\WaTecnologia.ControlePortaria.Repository.EntityFrameWork\obj\Debug\WaTecnologia.ControlePortaria.Repository.EntityFrameWork.dll
+D:\Desenvolvimento\Controle_Portaria\WaTecnologia.ControlePortaria.Repository.EntityFrameWork\obj\Debug\WaTecnologia.ControlePortaria.Repository.EntityFrameWork.pdb
+D:\Desenvolvimento\Controle_Portaria\WaTecnologia.ControlePortaria.Repository.EntityFrameWork\obj\Debug\WaTecnologia.ControlePortaria.Repository.EntityFrameWork.Migrations.Initial.resources
+D:\Desenvolvimento\Controle_Portaria\WaTecnologia.ControlePortaria.Repository.EntityFrameWork\obj\Debug\WaTecnologia.ControlePortaria.Repository.EntityFrameWork.csproj.GenerateResource.cache

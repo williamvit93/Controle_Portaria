@@ -6,7 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\WaTecnologia.ControlePortaria.Domain\WaTecnologia.ControlePortaria.Domain.csproj" />
-    <ProjectReference Include="..\WaTecnologia.ControlePortaria.Repository\WaTecnologia.ControlePortaria.Repository.csproj" />
+    <ProjectReference Include="..\WaTecnologia.ControlePortaria.Repository.EntityFrameWork\WaTecnologia.ControlePortaria.Repository.EntityFrameWork.csproj" />
   </ItemGroup>
 
 </Project>

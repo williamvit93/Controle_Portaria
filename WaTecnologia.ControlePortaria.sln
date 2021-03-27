@@ -3,13 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaTecnologia.ControlePortaria.Repository", "WaTecnologia.ControlePortaria.Repository\WaTecnologia.ControlePortaria.Repository.csproj", "{24121F79-33A8-4527-95BB-D3642BA23636}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WaTecnologia.ControlePortaria.Repository", "WaTecnologia.ControlePortaria.Repository\WaTecnologia.ControlePortaria.Repository.csproj", "{24121F79-33A8-4527-95BB-D3642BA23636}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaTecnologia.ControlePortaria.Services", "WaTecnologia.ControlePortaria.Services\WaTecnologia.ControlePortaria.Services.csproj", "{630A4E06-C22C-4D84-98F0-9976115EB89B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WaTecnologia.ControlePortaria.Services", "WaTecnologia.ControlePortaria.Services\WaTecnologia.ControlePortaria.Services.csproj", "{630A4E06-C22C-4D84-98F0-9976115EB89B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaTecnologia.ControlePortaria.Views", "WaTecnologia.ControlePortaria.Views\WaTecnologia.ControlePortaria.Views.csproj", "{100777DB-A5B7-40C8-992C-00C5BFAFB58D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaTecnologia.ControlePortaria.Domain", "WaTecnologia.ControlePortaria.Domain\WaTecnologia.ControlePortaria.Domain.csproj", "{368AA68C-A461-45E3-B5ED-BA86EC1097AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WaTecnologia.ControlePortaria.Domain", "WaTecnologia.ControlePortaria.Domain\WaTecnologia.ControlePortaria.Domain.csproj", "{368AA68C-A461-45E3-B5ED-BA86EC1097AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaTecnologia.ControlePortaria.WebAPI", "WaTecnologia.ControlePortaria.WebAPI\WaTecnologia.ControlePortaria.WebAPI.csproj", "{D16BC583-91F5-4389-9DBD-9DE883DFE1E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7DEDD2A2-33D7-44C6-8491-13B3ACEA9878}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaTecnologia.ControlePortaria.Repository.EntityFrameWork", "WaTecnologia.ControlePortaria.Repository.EntityFrameWork\WaTecnologia.ControlePortaria.Repository.EntityFrameWork.csproj", "{DCC52F80-4693-4C3A-8B54-BDAA19B96116}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +39,14 @@ Global
 		{368AA68C-A461-45E3-B5ED-BA86EC1097AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{368AA68C-A461-45E3-B5ED-BA86EC1097AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{368AA68C-A461-45E3-B5ED-BA86EC1097AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D16BC583-91F5-4389-9DBD-9DE883DFE1E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D16BC583-91F5-4389-9DBD-9DE883DFE1E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D16BC583-91F5-4389-9DBD-9DE883DFE1E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D16BC583-91F5-4389-9DBD-9DE883DFE1E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCC52F80-4693-4C3A-8B54-BDAA19B96116}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCC52F80-4693-4C3A-8B54-BDAA19B96116}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCC52F80-4693-4C3A-8B54-BDAA19B96116}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCC52F80-4693-4C3A-8B54-BDAA19B96116}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -13,7 +13,7 @@ namespace WaTecnologia.ControlePortaria.Repository
             conexao = new ConexaoDados();
         }
 
-        public void Inserir(EncomendaModel encomenda)
+        public void Inserir(Encomenda encomenda)
         {
             var con = conexao.AbrirConexao();
             con.Open();
@@ -50,9 +50,9 @@ namespace WaTecnologia.ControlePortaria.Repository
 
         }
 
-        public List<EncomendaModel> Listar()
+        public List<Encomenda> Listar()
         {
-            var encomendas = new List<EncomendaModel>();
+            var encomendas = new List<Encomenda>();
             var con = conexao.AbrirConexao();
             con.Open();
             try
@@ -65,7 +65,7 @@ namespace WaTecnologia.ControlePortaria.Repository
                 {
                     while (dataReader.Read())
                     {
-                        EncomendaModel encomenda = new EncomendaModel();
+                        Encomenda encomenda = new Encomenda();
 
                         encomenda.Id = Convert.ToInt32(dataReader["Id"]);
                         encomenda.NomeRemetente = dataReader["NomeRemetente"].ToString();
@@ -94,9 +94,9 @@ namespace WaTecnologia.ControlePortaria.Repository
             return encomendas;
         }
 
-        public EncomendaModel BuscarPorId(int id)
+        public Encomenda BuscarPorId(int id)
         {
-            var encomenda = new EncomendaModel();
+            var encomenda = new Encomenda();
             var con = conexao.AbrirConexao();
             con.Open();
             try
@@ -135,9 +135,9 @@ namespace WaTecnologia.ControlePortaria.Repository
             return encomenda;
         }
 
-        public List<EncomendaModel> FiltrarPorParametros(EncomendaModel parametros)
+        public List<Encomenda> FiltrarPorParametros(Encomenda parametros)
         {
-            var encomendas = new List<EncomendaModel>();
+            var encomendas = new List<Encomenda>();
             var con = conexao.AbrirConexao();
             con.Open();
             try
@@ -161,7 +161,7 @@ namespace WaTecnologia.ControlePortaria.Repository
                 {
                     while (dataReader.Read())
                     {
-                        EncomendaModel encomenda = new EncomendaModel();
+                        Encomenda encomenda = new Encomenda();
 
                         encomenda.Id = Convert.ToInt32(dataReader["Id"]);
                         encomenda.NomeRemetente = dataReader["NomeRemetente"].ToString();
@@ -190,12 +190,6 @@ namespace WaTecnologia.ControlePortaria.Repository
             return encomendas;
         }
 
-            
-
-        
-
-
-
         public void Remover(int id)
         {
             var con = conexao.AbrirConexao();
@@ -206,7 +200,7 @@ namespace WaTecnologia.ControlePortaria.Repository
                 var command = con.CreateCommand();
                 command.CommandText = $@"UPDATE ENCOMENDAS
                                         SET ATIVO = 0
-                                        WHERE Id = @Id )";
+                                        WHERE Id = @Id";
 
                 command.Parameters.Add("Id", SqlDbType.Int).Value = id;
                 command.ExecuteNonQuery();
@@ -221,7 +215,7 @@ namespace WaTecnologia.ControlePortaria.Repository
             }
         }
 
-        public void Editar(EncomendaModel encomenda)
+        public void Editar(Encomenda encomenda)
         {
             var con = conexao.AbrirConexao();
             con.Open();

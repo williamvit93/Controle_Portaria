@@ -1,31 +1,32 @@
 ﻿using System.Collections.Generic;
 using WaTecnologia.ControlePortaria.Domain;
-using WaTecnologia.ControlePortaria.Repository;
+
 using System;
+using WaTecnologia.ControlePortaria.Repository.EntityFrameWork;
 
 namespace WaTecnologia.ControlePortaria.Services
 {
     public class EncomendasService
     {
-        private EncomendasRepository encomendasRepository;
+        private EncomendaRepository encomendasRepository;
         public EncomendasService()
         {
-            encomendasRepository = new EncomendasRepository();
+            encomendasRepository = new EncomendaRepository();
         }
 
-        public void Inserir(EncomendaModel encomenda)
+        public void Inserir(Encomenda encomenda)
         {
             encomenda.DataRecebimento = DateTime.Now;
             encomenda.Ativo = true;
             encomendasRepository.Inserir(encomenda);
         }
 
-        public List<EncomendaModel> Listar()
+        public List<Encomenda> Listar()
         {
             return encomendasRepository.Listar();
         }
 
-        public EncomendaModel BuscarPorId(int id)
+        public Encomenda BuscarPorId(int id)
         {
             return encomendasRepository.BuscarPorId(id);
         }
@@ -35,7 +36,7 @@ namespace WaTecnologia.ControlePortaria.Services
             encomendasRepository.Remover(id);
         }
 
-        public void Editar(EncomendaModel encomenda)
+        public void Editar(Encomenda encomenda)
         {
             var encomendaAtual =  encomendasRepository.BuscarPorId(encomenda.Id);
 
@@ -46,7 +47,7 @@ namespace WaTecnologia.ControlePortaria.Services
 
             encomendasRepository.Editar(encomendaAtual);
         }
-        public List<EncomendaModel>FiltraPorParametros(EncomendaModel parametros)
+        public List<Encomenda>FiltraPorParametros(Encomenda parametros)
         {
             return encomendasRepository.FiltrarPorParametros(parametros);
         }

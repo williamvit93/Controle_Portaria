@@ -22,7 +22,7 @@ namespace WaTecnologia.ControlePortaria.Views.Controllers
             return View();
         }
 
-        public ActionResult Insert(EncomendaModel encomenda)
+        public ActionResult Insert(Encomenda encomenda)
         {
             encomendasService.Inserir(encomenda);
             return RedirectToAction("Index");
@@ -34,13 +34,13 @@ namespace WaTecnologia.ControlePortaria.Views.Controllers
             return View();
         }
 
-        public ActionResult RegisterWithdrawal(EncomendaModel encomenda)
+        public ActionResult RegisterWithdrawal(Encomenda encomenda)
         {
             encomendasService.Editar(encomenda);
             return RedirectToAction("Index");
         }
         
-        public ActionResult FiltraPorParametros(EncomendaModel parametros)
+        public ActionResult FiltraPorParametros(Encomenda parametros)
         {
            var encomendas= encomendasService.FiltraPorParametros(parametros);
             return View("Index", encomendas);       
